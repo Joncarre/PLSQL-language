@@ -1,4 +1,4 @@
--- Jonathan Carrero y Miguel Sánchez-Brunete
+-- Jonathan Carrero
 
 /*
   SET AUTOCOMMIT OFF;
