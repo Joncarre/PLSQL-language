@@ -1,13 +1,9 @@
---   sOLUCION PRACTICA 2, APARTADO 2 
----------------------------------------------------------------------
--- PRACTICAS 1, 2 y 3: Declaraciones de la BD y sus actualizaciones --
----------------------------------------------------------------------
 
 REM ... Empresa: E(NombreE, Cotizacion, Capital)
 
 DROP TABLE Empresa CASCADE CONSTRAINTS;
 
--- ERROR : todas las drop daran error por no existir las tablas, ignorarlo !!
+-- ERROR : todos los DROP daran error por no existir las tablas, ignorarlo!
 
 create table Empresa
 	(NombreE		CHAR(20) not null,
@@ -208,7 +204,7 @@ INSERT INTO Compras
 INSERT INTO Compras VALUES ('00000004', '40000200',1, 0501,'tienda7',4);
 ---------------------------------------------------------------------
 
-REM ...             Puesto: P(DNI, T¡tulo, Sueldo)
+REM ...             Puesto: P(DNI, TÂ¡tulo, Sueldo)
 
 INSERT INTO Puesto VALUES ('00000001', 'cajera', 30);
 INSERT INTO Puesto VALUES ('00000002', 'estudiante', 30);
